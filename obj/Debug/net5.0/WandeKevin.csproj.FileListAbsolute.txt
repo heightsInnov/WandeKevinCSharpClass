@@ -1,0 +1,16 @@
+c:\Users\User\Documents\Demotek\CSharpTrainning\WandeKevin\bin\Debug\net5.0\WandeKevin.exe
+c:\Users\User\Documents\Demotek\CSharpTrainning\WandeKevin\bin\Debug\net5.0\WandeKevin.deps.json
+c:\Users\User\Documents\Demotek\CSharpTrainning\WandeKevin\bin\Debug\net5.0\WandeKevin.runtimeconfig.json
+c:\Users\User\Documents\Demotek\CSharpTrainning\WandeKevin\bin\Debug\net5.0\WandeKevin.runtimeconfig.dev.json
+c:\Users\User\Documents\Demotek\CSharpTrainning\WandeKevin\bin\Debug\net5.0\WandeKevin.dll
+c:\Users\User\Documents\Demotek\CSharpTrainning\WandeKevin\bin\Debug\net5.0\ref\WandeKevin.dll
+c:\Users\User\Documents\Demotek\CSharpTrainning\WandeKevin\bin\Debug\net5.0\WandeKevin.pdb
+c:\Users\User\Documents\Demotek\CSharpTrainning\WandeKevin\obj\Debug\net5.0\WandeKevin.csproj.AssemblyReference.cache
+c:\Users\User\Documents\Demotek\CSharpTrainning\WandeKevin\obj\Debug\net5.0\WandeKevin.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\User\Documents\Demotek\CSharpTrainning\WandeKevin\obj\Debug\net5.0\WandeKevin.AssemblyInfoInputs.cache
+c:\Users\User\Documents\Demotek\CSharpTrainning\WandeKevin\obj\Debug\net5.0\WandeKevin.AssemblyInfo.cs
+c:\Users\User\Documents\Demotek\CSharpTrainning\WandeKevin\obj\Debug\net5.0\WandeKevin.csproj.CoreCompileInputs.cache
+c:\Users\User\Documents\Demotek\CSharpTrainning\WandeKevin\obj\Debug\net5.0\WandeKevin.dll
+c:\Users\User\Documents\Demotek\CSharpTrainning\WandeKevin\obj\Debug\net5.0\ref\WandeKevin.dll
+c:\Users\User\Documents\Demotek\CSharpTrainning\WandeKevin\obj\Debug\net5.0\WandeKevin.pdb
+c:\Users\User\Documents\Demotek\CSharpTrainning\WandeKevin\obj\Debug\net5.0\WandeKevin.genruntimeconfig.cache
