@@ -1,5 +1,4 @@
 public class Bank{
-
     public string bankName {get; set;}
     public string hqAddress {get; set;}
     public string bankAccronym {get; set;}

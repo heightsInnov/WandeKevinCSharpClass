@@ -42,5 +42,61 @@ class Readme{
             - Interface: These are contracts bindings between a class and a fellow implementing class
             - Abstract Classes: These are classes containing one or more abstract methods
 
+
+        =========== Classes ==============
+        Objects
+        Program files
+        Building blocks of Objects
+
+        Classes => Modeled Objects / Model of objects / Object templates
+
+        classes contains attributes and methods.
+        Attributes are made of variables;
+        while methods describe the functions to be performed or performed by a class.
+
+        What are variables: \
+            Something that  changes
+            Something that takes different forms
+            :=> Variables are dynamic and changeable containers for values.
+
+            Declaring variables:
+                variables are declared in different ways, however the shortest variable will contain 
+                    1. DataType;
+                    2. Variable Name; 
+                    3. It is terminated with a semi-colon;
+
+                    e,g: int sum;
+                         string firstname;
+                         string bankName;
+                         decimal PI;
+                         boolean isValid;
+
+            On a broader scope, a variable contains;
+            1. access modifier which is private by default
+            2. Data type
+            3. Variable name
+            4. optional default value 
+            5. semi colon.
+
+            e.g public string bankName = "Union Bank of Nigeria";
+                private int age;
+                private decimal PI;
+                
+                volume of air = 22.4dm3
+                volume of YewKel air = 25 dm3
+
+        DataTypes: Data types are the grouping of information or data in programming. 
+            with Objects been the base type for all data types.
+        Examples of DT in C#:
+            -> Integers: Numbers (Whole numbers), size : 4 bytes
+            -> Boolean : True or False, 1 or 0, size: 2 bytes
+            -> Float : 4 byte
+            -> Double : 8 byte
+            -> Decimal : 16 byte
+            -> Char : 'a', 'b', '1', 'y', '@', '!'
+            -> Null : void, empty, nothing, abstract,
+            -> Long : 8 bytes
+            -> Short : 2 bytes
+            -> String : Alpha-numeric characters. E.g Texts, mix of numbers and characters or alphabets.
     */
 }
