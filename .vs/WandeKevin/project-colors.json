@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "cdf765af-1764-4fb2-8ecb-a1d66a36656a": {
+      "ProjectGuid": "cdf765af-1764-4fb2-8ecb-a1d66a36656a",
+      "DisplayName": "WandeKevin",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "8188d7c0-3d5f-4c63-9d10-99389a5030c2": {
+      "ProjectGuid": "8188d7c0-3d5f-4c63-9d10-99389a5030c2",
+      "DisplayName": "WandeKevin",
+      "ColorIndex": 1
+    },
+    "4cadea86-e9a1-4f25-9a79-b96ce85df164": {
+      "ProjectGuid": "4cadea86-e9a1-4f25-9a79-b96ce85df164",
+      "DisplayName": "WandeKevin",
+      "ColorIndex": 2
+    },
+    "080c79ed-ecbe-4f55-a1c2-af9e03e43f8e": {
+      "ProjectGuid": "080c79ed-ecbe-4f55-a1c2-af9e03e43f8e",
+      "DisplayName": "WandeKevin",
+      "ColorIndex": 3
+    },
+    "8e153eab-9927-4b34-942a-879d1b607d85": {
+      "ProjectGuid": "8e153eab-9927-4b34-942a-879d1b607d85",
+      "DisplayName": "WandeKevin",
+      "ColorIndex": 4
+    },
+    "e31551b5-7dcf-466a-9061-867bb6fa89bf": {
+      "ProjectGuid": "e31551b5-7dcf-466a-9061-867bb6fa89bf",
+      "DisplayName": "WandeKevin",
+      "ColorIndex": 5
+    }
+  },
+  "NextColorIndex": 6
+}
