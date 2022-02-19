@@ -1,3 +1,5 @@
+using System;
+
 class Readme{
     
     /*
@@ -88,6 +90,7 @@ class Readme{
         DataTypes: Data types are the grouping of information or data in programming. 
             with Objects been the base type for all data types.
         Examples of DT in C#:
+        => Primitive
             -> Integers: Numbers (Whole numbers), size : 4 bytes
             -> Boolean : True or False, 1 or 0, size: 2 bytes
             -> Float : 4 byte
@@ -98,5 +101,65 @@ class Readme{
             -> Long : 8 bytes
             -> Short : 2 bytes
             -> String : Alpha-numeric characters. E.g Texts, mix of numbers and characters or alphabets.
-    */
+
+        => Derived DataTypes
+        - Functions
+        - Arrays
+        - References
+        - Pointers
+
+        Arrays: They are container-like in-memory storage used to hold values of the same data type.
+            They are zero based index storage. 
+            They are referenced from 0 to the size - 1
+            They are denoted by [] in c#
+            They store finite number of values
+            They are only accessible (Writing and Reading) through the use of their index value
+            Array values are printed using a loop mechanism.
+
+            - Declaring an array
+            public string[] bankBranches;
+            public string bankBranches[];
+            public int[] numbers;
+            private int[] ages;
+            private char[] alphabets;
+
+            - Instantiating and array
+*/
+            //1. 
+            public string[] bankBranches = new string[5]{"Ikeja", "V.I", "Lekki", "Yaba", "Marina"};
+
+            //2.
+            public string[] bankNames = new string[6];
+            public static int[] numbers = new int[3]{1, 2, 3};
+            
+            public static void Mains(){
+                
+/*      - Accessing an array
+                => Writing into an array
+    */          
+            Readme readme = new Readme();
+            readme.bankBranches[0] = "Somolu";
+            readme.bankBranches[4] = "Bariga";
+
+            readme.bankNames[0] = "UBA";
+            readme.bankNames[2] = "UBN";
+            readme.bankNames[5] = "FBN";
+
+            }
+
+    /*      - Accessing an array
+                => Reading from an array
+    */ 
+            int firstNumber = numbers[0];
+            int secondNumber = numbers[1];
+            int thirdNumber = numbers[2];
+            
+            int sum = numbers[0] + numbers[2];
+
+
+//Side Note
+    //Concatenation: The addition or joining of two strings in programming
+    // firstname + " "+ secondname => Yewande Akinjewe : Happens when one or more of the added variables is a
+    // string
+    
 }

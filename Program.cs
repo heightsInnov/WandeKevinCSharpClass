@@ -8,6 +8,11 @@ namespace WandeKevin
         {
             Console.WriteLine("Hello World!");
 
+            ArrayOperations operations = new ArrayOperations();
+            operations.operateArray();
+
+            
+            Console.WriteLine("======================================================================");
             BankBranch ubn = new BankBranch();
             ubn.bankAccronym = "UBN";
             ubn.bankName = "Union Bank of Nigeria";

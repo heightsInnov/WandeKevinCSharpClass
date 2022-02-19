@@ -5,4 +5,6 @@ public class Bank{
     public string logoLink {get; set;}
     public int hqSortCode {get; set;}
     public string swiftCode {get; set;}
+
+    public string[] bankBranches;
 }
