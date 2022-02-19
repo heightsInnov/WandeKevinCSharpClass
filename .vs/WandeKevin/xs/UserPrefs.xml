@@ -1,0 +1,29 @@
+﻿<Properties StartupConfiguration="{E7D32306-04A3-428B-80C9-8B265652E455}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Readme.cs">
+    <Files>
+      <File FileName="Bank.cs" Line="1" Column="1" />
+      <File FileName="Readme.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="WandeKevin" expanded="True">
+            <Node name="WandeKevin" expanded="True">
+              <Node name="Readme.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.WandeKevin PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

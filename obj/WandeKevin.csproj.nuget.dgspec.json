@@ -1,27 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\User\\Documents\\Demotek\\CSharpTrainning\\WandeKevin\\WandeKevin.csproj": {}
+    "/Users/yewande/Documents/Training/WandeKevinCSharpClass/WandeKevin.csproj": {}
   },
   "projects": {
-    "c:\\Users\\User\\Documents\\Demotek\\CSharpTrainning\\WandeKevin\\WandeKevin.csproj": {
+    "/Users/yewande/Documents/Training/WandeKevinCSharpClass/WandeKevin.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\User\\Documents\\Demotek\\CSharpTrainning\\WandeKevin\\WandeKevin.csproj",
+        "projectUniqueName": "/Users/yewande/Documents/Training/WandeKevinCSharpClass/WandeKevin.csproj",
         "projectName": "WandeKevin",
-        "projectPath": "c:\\Users\\User\\Documents\\Demotek\\CSharpTrainning\\WandeKevin\\WandeKevin.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\User\\Documents\\Demotek\\CSharpTrainning\\WandeKevin\\obj\\",
+        "projectPath": "/Users/yewande/Documents/Training/WandeKevinCSharpClass/WandeKevin.csproj",
+        "packagesPath": "/Users/yewande/.nuget/packages/",
+        "outputPath": "/Users/yewande/Documents/Training/WandeKevinCSharpClass/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/yewande/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
@@ -53,7 +52,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.405\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.101/RuntimeIdentifierGraph.json"
         }
       }
     }
