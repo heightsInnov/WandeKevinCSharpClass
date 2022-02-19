@@ -24,6 +24,5 @@ namespace WandeKevin.Week2Assignment
             "Orile Iganmu",
             "Maryland"
         };
-
     }
 }
