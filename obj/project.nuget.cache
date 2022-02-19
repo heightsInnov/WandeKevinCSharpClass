@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "M1Q9EFyO9QeKT9SQvoBKAqbgkiYIj1OyNTkRAnfgSPGZWsOu9xa3TzJBdrFhGPqr0J756XXV7Gs4l5J4j4wQZA==",
+  "dgSpecHash": "47lNN+1KNss1R+DCQgU5I13rmT4CIzfaAWxdfKUf7drr1ubLRbNt3jlo2+tNLijKSkWxY4ScnmsvJmYi7QnTDg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\kevin\\source\\repos\\WandeKevinCSharpClass\\WandeKevin.csproj",
+  "projectFilePath": "C:\\Users\\kevin\\Source\\Repos\\WandeKevinCSharpClass\\WandeKevin.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kevin\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.12\\microsoft.netcore.app.host.win-x64.5.0.12.nupkg.sha512"
   ],
