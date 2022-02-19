@@ -16,12 +16,14 @@ namespace WandeKevin.Week2Assignment
         public string swiftCode { get; set; }
 
         public string [] bankBranches = { 
-            "", 
-            "", 
-            "", 
-            "", 
-            "", 
-            "" };
+            "Broad Street", 
+            "Ebutte Metta", 
+            "Ijede", 
+            "Ikeja", 
+            "Lapal House", 
+            "Orile Iganmu",
+            "Maryland"
+        };
 
     }
 }
