@@ -1,5 +1,4 @@
-﻿public class foodType
-
+﻿public class FoodType
 {
     public string swallows;
     public string soups;
@@ -7,7 +6,7 @@
     public string cereals;
     public string drinks;
 
-        public foodType()
-        {
-        }
+    public FoodType()
+    {
     }
+}
