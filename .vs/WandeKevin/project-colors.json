@@ -35,7 +35,12 @@
       "ProjectGuid": "e31551b5-7dcf-466a-9061-867bb6fa89bf",
       "DisplayName": "WandeKevin",
       "ColorIndex": 5
+    },
+    "c60b0464-5a4f-4835-b423-8716d7e6a0c0": {
+      "ProjectGuid": "c60b0464-5a4f-4835-b423-8716d7e6a0c0",
+      "DisplayName": "WandeKevin",
+      "ColorIndex": 6
     }
   },
-  "NextColorIndex": 6
+  "NextColorIndex": 7
 }
