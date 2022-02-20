@@ -177,6 +177,9 @@ class Readme{
 
     The above methods are immediately created after a class creation and are useable on creation.
     The methods are also overrideable to customize the functions they perform.
+
+    There is a 5th hidden method that comes with your class, and it is call a no-arguement constructor.
+    => Constructors
 */
     
 }

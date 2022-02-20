@@ -18,6 +18,5 @@ public class BankBranch : Bank {
                 + "\n Branch Name: " + branchName
                 + "\n Branch Sort Code: " + branchSortCode
                 + "\n Branch Balance: " + ledgerBalance;
-
     }
 }
