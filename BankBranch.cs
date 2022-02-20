@@ -1,3 +1,4 @@
+using System;
 public class BankBranch : Bank {
 
     public string branchName {get; set;}
@@ -6,7 +7,12 @@ public class BankBranch : Bank {
     public int staffStrength {get; set;}
     public int branchSortCode {get; set;}
 
+    public BankBranch(){
+        Console.WriteLine("We are here for Yewande and Kevin in constructor");
+    }
+
     void closeBranch(){
+        Console.WriteLine("We are here for Yewande and Kevin");
     }
 
     void disableBranch(){ 

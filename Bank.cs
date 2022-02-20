@@ -7,4 +7,5 @@ public class Bank{
     public string swiftCode {get; set;}
 
     public string[] bankBranches {get; set;}
+
 }
