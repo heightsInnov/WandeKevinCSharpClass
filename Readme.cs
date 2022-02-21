@@ -161,5 +161,32 @@ class Readme{
     //Concatenation: The addition or joining of two strings in programming
     // firstname + " "+ secondname => Yewande Akinjewe : Happens when one or more of the added variables is a
     // string
+
+/*
+    Declaring Classes
+    Classes are declared or created using the below syntax;
+    {access modifiers} class(keyword) {class name} {}
+
+    On class creation in C#, five default methods are bundled with the created class which are inherited from 
+    an Object base class.
+    The methods include:
+        - Equals
+        - HashCode
+        - ToString
+        - GetType
+
+    The above methods are immediately created after a class creation and are useable on creation.
+    The methods are also overrideable to customize the functions they perform.
+
+    There is a 5th hidden method that comes with your class, and it is call a no-arguement constructor.
+    => Constructors: The default method used in setting up your class.
+        They have same name as the class themselves
+        They can be overriden and also customized.
+
+    ========= Week Assignement ============
+    1. Write a custotmer class with only 1 required arguement constructor, supply as many fields as possible
+    2. Write a Customer Account Class which inherits from Customer class and has a required args constructor that includes two of the fields from the Customer class.
+
+*/
     
 }

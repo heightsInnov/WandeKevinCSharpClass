@@ -6,5 +6,6 @@ public class Bank{
     public int hqSortCode {get; set;}
     public string swiftCode {get; set;}
 
-    public string[] bankBranches;
+    public string[] bankBranches {get; set;}
+
 }
