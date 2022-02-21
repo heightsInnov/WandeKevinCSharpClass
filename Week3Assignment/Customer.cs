@@ -8,6 +8,7 @@ namespace WandeKevin.Week3Assignment
 {
     internal class Customer
     {
+        // Defining properties of Customer Class
         public string id { get; set; }
         public string firstName { get; set; }
         public string lastName { get; set; }
@@ -18,6 +19,7 @@ namespace WandeKevin.Week3Assignment
         public string gender { get; set; }
 
 
+        // Defining a constructor of the Account Class
         public void getCustomer(string id)
         {
 
