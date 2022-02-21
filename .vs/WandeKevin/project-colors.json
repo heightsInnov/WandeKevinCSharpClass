@@ -15,7 +15,37 @@
       "ProjectGuid": "8188d7c0-3d5f-4c63-9d10-99389a5030c2",
       "DisplayName": "WandeKevin",
       "ColorIndex": 1
+    },
+    "4cadea86-e9a1-4f25-9a79-b96ce85df164": {
+      "ProjectGuid": "4cadea86-e9a1-4f25-9a79-b96ce85df164",
+      "DisplayName": "WandeKevin",
+      "ColorIndex": 2
+    },
+    "080c79ed-ecbe-4f55-a1c2-af9e03e43f8e": {
+      "ProjectGuid": "080c79ed-ecbe-4f55-a1c2-af9e03e43f8e",
+      "DisplayName": "WandeKevin",
+      "ColorIndex": 3
+    },
+    "8e153eab-9927-4b34-942a-879d1b607d85": {
+      "ProjectGuid": "8e153eab-9927-4b34-942a-879d1b607d85",
+      "DisplayName": "WandeKevin",
+      "ColorIndex": 4
+    },
+    "e31551b5-7dcf-466a-9061-867bb6fa89bf": {
+      "ProjectGuid": "e31551b5-7dcf-466a-9061-867bb6fa89bf",
+      "DisplayName": "WandeKevin",
+      "ColorIndex": 5
+    },
+    "c60b0464-5a4f-4835-b423-8716d7e6a0c0": {
+      "ProjectGuid": "c60b0464-5a4f-4835-b423-8716d7e6a0c0",
+      "DisplayName": "WandeKevin",
+      "ColorIndex": 6
+    },
+    "49d2c506-0789-426c-a16c-4e417bb375a7": {
+      "ProjectGuid": "49d2c506-0789-426c-a16c-4e417bb375a7",
+      "DisplayName": "WandeKevin",
+      "ColorIndex": 7
     }
   },
-  "NextColorIndex": 2
+  "NextColorIndex": 8
 }
