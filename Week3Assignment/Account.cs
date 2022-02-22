@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace WandeKevin.Week3Assignment
 {
-    internal class Account : Customer
+    public class Account : Customer
     {
-        // Defining properties of Account Class
+        // Defining properties of account class
         public int accountId { get; set; }
         public string accountNumber { get; set; }
         public string bvn { get; set; }
@@ -17,10 +17,24 @@ namespace WandeKevin.Week3Assignment
         public int transactionPin { get; set; }
 
 
-        // Defining a constructor of the Account Class
-        public void account(int accountId, string accountNumber)
+        // Defining a 2-argument constructor with fields from the parent class
+      public Account(string customerEmailAddress, string customerPhoneNumber, int customerID)
+            :base(customerID)
+        {
+            this.emailAddress = customerEmailAddress;
+            this.phoneNumber = customerPhoneNumber;
+
+        }
+
+/*        //This applies when the parent argument constructor requires 2 arguments for instance
+ *        public Account(string firstName, int customerId)
+            : base(customerId, firstName)
         {
 
         }
+*/
+
+
     }
+
 }
