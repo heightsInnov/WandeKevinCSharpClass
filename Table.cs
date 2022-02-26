@@ -25,7 +25,7 @@ public class Table
 
     public override string ToString()
     {
-        return " Table Name: " + brandName
+        return " Brand Name: " + brandName
                              + "\n Table Colour: " + colour
                              + "\n Table Height: " + height
                              + "\n Is Table Plastic?: " + isPlastic;

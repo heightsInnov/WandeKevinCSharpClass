@@ -1,3 +1,4 @@
+
 using System;
 
 class Readme{
@@ -195,17 +196,6 @@ class Readme{
 
     Instantiate the class in the program.cs class
     Print the values within the class on the console.
-
-    =============== Assignment =============
-    Write 3 new classes with atleast two reqired arguement constructors
-    Define 3 instances each of your classes;
-    Print the values of your classes on the console, screen grab the output 
-        and add it to a folder call output in the project
-
-    Write a calculator class with two properties, 
-        define 4 methods within the class to handle four different arithmetic operations of your choosen.
-
-    push to the repo before next class.
 */
     
 }
