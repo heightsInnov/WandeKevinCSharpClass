@@ -11,7 +11,6 @@ namespace WandeKevin
         public string name { set; get; }
         public string location { set; get; }
         public string type { set; get; }
-        public string contactPhoneNumber { set; get; }
         public int studentSize { set; get; }
         public string website { set; get; }
         public string[] colours { set; get; }
@@ -41,6 +40,18 @@ namespace WandeKevin
             this.name = name;
             this.location = city;
             this.type = type;
+        }
+
+        public string Print()
+        {
+            return " Name: " + name
+                                   + "\n Location: " + location
+                                   + "\n Type: " + type
+                                   + "\n Website: " + website
+                                   + "\n Student Size: " + studentSize
+                                   + "\n Colours: " + colours
+                                   + "\n Rating: " + rating;
+                                   
         }
 
     }

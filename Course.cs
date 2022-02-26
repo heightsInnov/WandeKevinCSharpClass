@@ -17,25 +17,51 @@ namespace WandeKevin
 
 
         public Course(string courseCode, string schoolName)
-            :base(schoolName)
+            : base(schoolName)
         {
             this.courseCode = courseCode;
 
         }
 
-        public Course(string courseCode, int creditUnits, string semester)
+        public Course(string courseCode, int creditUnits, string semester, string schoolName)
+            : base(schoolName)
+
         {
             this.courseCode = courseCode;
             this.creditUnits = creditUnits;
             this.semester = semester;
 
         }
-        public Course(string courseCode, string courseTitle, string[] courseLecturers)
+        public Course(string courseCode, string courseTitle, string[] courseLecturers, string schoolName)
+            : base(schoolName)
+
         {
             this.courseCode = courseCode;
             this.courseTitle = courseTitle;
-            this.semester = semester;
             this.courseLecturers = courseLecturers;
+
+
+        }
+
+        public string Print()
+        {
+            return " Course Code: " + courseCode
+                                    + "\n Title: " + courseTitle
+                                    + "\n Credit Units: " + creditUnits
+                                    + "\n Level: " + courseLevel
+                                    + "\n Lecturers: " + courseLecturers
+                                    + "\n Semester: " + semester
+                                    + "\n University: " + name;
+
+
+        }
+
+        public string Prints()
+        {
+            return " Course Code: " + courseCode
+                                    + "\n Title: " + courseTitle
+                                    + "\n Lecturers: " + courseLecturers;
+
         }
 
     }

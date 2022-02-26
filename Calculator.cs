@@ -1,6 +1,6 @@
 using System;
 
-public class Calculator
+/*public class Calculator
 {
     // Defining Properties of Calculator Class
     public int firstNumber { get; set; }
@@ -32,4 +32,4 @@ public class Calculator
         return ratio;
     }
 
-}
+}*/

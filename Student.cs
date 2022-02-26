@@ -40,5 +40,19 @@ namespace WandeKevin
             this.hasPaidFees = hasPaidFees;
         }
 
+        public string Print()
+        {
+            return " Matric Number: " + matricNumber
+                             + "\n Name: " + firstName + " " + lastName
+                             + "\n Department: " + department
+                             + "\n Email: " + email
+                             + "\n Phone Number: " + phoneNumber
+                             + "\n Gender: " + gender
+                             + "\n DOB: " + dateOfBirth
+                             + "\n Level: " + level
+                             + "\n Has Paid Fees: " + hasPaidFees;
+
+        }
+
     }
 }
