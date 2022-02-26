@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace WandeKevin
 {
-    internal class Course
+    internal class Course : School
     {
         public string courseCode { get; set; }
         public string courseTitle { get; set; }
@@ -16,7 +16,8 @@ namespace WandeKevin
         public string semester { get; set; }
 
 
-        public Course(string courseCode)
+        public Course(string courseCode, string schoolName)
+            :base(schoolName)
         {
             this.courseCode = courseCode;
 
@@ -29,7 +30,7 @@ namespace WandeKevin
             this.semester = semester;
 
         }
-        public Course(string courseCode, string courseTitle, string semester, string[] courseLecturers)
+        public Course(string courseCode, string courseTitle, string[] courseLecturers)
         {
             this.courseCode = courseCode;
             this.courseTitle = courseTitle;

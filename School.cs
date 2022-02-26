@@ -17,6 +17,11 @@ namespace WandeKevin
         public string[] colours { set; get; }
         public decimal rating { set; get; }
 
+        public School(string name)
+        {
+            this.name = name;
+        }
+
         public School(string name, string website)
         {
             this.name = name;

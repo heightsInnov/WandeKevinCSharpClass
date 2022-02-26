@@ -14,13 +14,13 @@ namespace WandeKevin
 
             Course course1 = new Course("MTH 101");
             Course course2 = new Course("CHM 130", 3, "Second Semester");
-            Course course3 = new Course("CSC 101", "Introduction to Programming in C#", "First", );
+            Course course3 = new Course("CSC 101", "Introduction to Programming in C#", new string[2]{ "Ayotola Jinadu", "Yewande Akinjewe" });
             
             Student 
 
 
 
-            Table table1 = new Table("Black Horse Power", "blue", true);
+            Table table1 = new Table("Black Horse Power", "blue", true)
             Console.WriteLine(" The details of our Table is:" + "\n" + table1.ToString());
             
         }
