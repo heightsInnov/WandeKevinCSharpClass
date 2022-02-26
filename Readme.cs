@@ -187,6 +187,14 @@ class Readme{
     1. Write a custotmer class with only 1 required arguement constructor, supply as many fields as possible
     2. Write a Customer Account Class which inherits from Customer class and has a required args constructor that includes two of the fields from the Customer class.
 
+
+    ============ Week 4 classwork ==================
+    Write a class (Dog/Table) with 5 properties each;
+    define two required arguement constructors with atleast 2 - 3 fields each, 
+    override the ToString method of the class
+
+    Instantiate the class in the program.cs class
+    Print the values within the class on the console.
 */
     
 }
