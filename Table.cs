@@ -5,9 +5,9 @@ public class Table
     public string brandName { get; set; }
     public string colour { get; set; }
     public decimal length { get; set; }
-    public decimal breath { get; set; }
-    public decimal surfaceArea { get; set; }
+    public decimal breadth { get; set; }
     public decimal height { get; set; }
+    public decimal surfaceArea { get; set; }
     public bool isPlastic { get; set; }
 
     public Table(string brandName, decimal height)
@@ -23,11 +23,23 @@ public class Table
         this.isPlastic = isPlastic;
     }
 
-    public override string ToString()
+    public Table(decimal length, decimal breadth, decimal height, bool isPlastic)
+    {
+        this.length = length;
+        this.breadth = breadth;
+        surfaceArea = length * breadth;
+        this.height = height;
+        this.isPlastic = isPlastic;
+    }
+
+    public string Print()
     {
         return " Brand Name: " + brandName
-                             + "\n Table Colour: " + colour
-                             + "\n Table Height: " + height
+                             + "\n Colour: " + colour
+                             + "\n Length: " + length
+                             + "\n Breadth: " + breadth
+                             + "\n Size: " + surfaceArea
+                             + "\n Height: " + height
                              + "\n Is Table Plastic?: " + isPlastic;
     }
 

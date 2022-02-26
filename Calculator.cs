@@ -1,35 +1,42 @@
 using System;
 
-/*public class Calculator
+public class Calculator
 {
     // Defining Properties of Calculator Class
     public int firstNumber { get; set; }
 
     public int secondNumber { get; set; }
 
-
+    public Calculator(int firstNumber, int secondNumber)
+    {
+        this.firstNumber = firstNumber;
+        this.secondNumber = secondNumber;
+    }
 
     // Defining Methods of Calculator Class
-    public int sumOf(){
+    public int SumOf()
+    {
         int sum = firstNumber + secondNumber;
         return sum;
     }
 
-    private int differenceOf(){
+    public int DifferenceOf()
+    {
         int diff = firstNumber - secondNumber;
         return diff;
     }
 
-    private int productOf()
+    public int ProductOf()
     {
         int product = firstNumber * secondNumber;
         return product;
     }
 
-    private int ratioOf()
+    public int RatioOf()
     {
-        decimal ratio = firstNumber / secondNumber;
+        int ratio = firstNumber / secondNumber;
         return ratio;
+        // consider decimal
     }
 
-}*/
+}
