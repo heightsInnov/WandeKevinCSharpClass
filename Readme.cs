@@ -184,7 +184,7 @@ class Readme{
         They can be overriden and also customized.
 
     ========= Week Assignement ============
-    1. Write a custotmer class with only 1 required arguement constructor, supply as many fields as possible
+    1. Write a customer class with only 1 required arguement constructor, supply as many fields as possible
     2. Write a Customer Account Class which inherits from Customer class and has a required args constructor that includes two of the fields from the Customer class.
 
 */
