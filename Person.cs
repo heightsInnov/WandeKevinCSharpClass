@@ -3,7 +3,8 @@ using System;
 class Person{
 
     public const int publicServiceYear = 35;
-    public int currentYear = 2022;
+    public int currentYear = DateTime.Now.Year;
+
     
     public int calculateAge(int birthYear){
         // Kevin
