@@ -125,7 +125,7 @@ class Readme{
             private char[] alphabets;
 
             - Instantiating and array
-*/
+    */
             //1. 
             public string[] bankBranches = new string[5]{"Ikeja", "V.I", "Lekki", "Yaba", "Marina"};
 
@@ -138,14 +138,14 @@ class Readme{
 /*      - Accessing an array
                 => Writing into an array
     */          
-            Readme readme = new Readme();
-            readme.bankBranches[0] = "Somolu";
-            readme.bankBranches[4] = "Bariga";
+                Readme readme = new Readme();
+                readme.bankBranches[0] = "Somolu";
+                readme.bankBranches[4] = "Bariga";
 
-            readme.bankNames[0] = "UBA";
-            readme.bankNames[2] = "UBN";
-            readme.bankNames[5] = "FBN";
-
+                readme.bankNames[0] = "UBA";
+                readme.bankNames[2] = "UBN";
+                readme.bankNames[5] = "FBN";
+                
             }
 
     /*      - Accessing an array
@@ -207,6 +207,44 @@ class Readme{
         define 4 methods within the class to handle four different arithmetic operations of your choosen.
 
     push to the repo before next class. 
+*/
+
+/*
+    Methods: Simply the the way of doing things, or a logical arrangment of procedures and processes of doing things
+    Methods cann be categorized in different ways;
+        - based on their access modifiers
+            public
+            private
+            protected
+            internal
+        - based on their return type
+            non value returning methods
+            method that returns value
+        - based on the arguement they take
+            non-arguement methods
+            arguement taking methods.
+
+    Method signature:
+        consist of the following:
+        1. access modifier (public, private, protected ..)
+        2. return type (Datatype)
+        3. method name (user defined)
+        4. optional method arguements (user defined)
+
+        e.g public void dance();
+            public int add(int a, int b);
+            private string generateName();
+            protected long saveBvn();
+
+            shortest possible method signature consist of the return type, method name and optional arguement.
+            e.g void dance();
+                string generateName();
+                int add(int a, int b);
+
+            Return types: It is the datatype of the expected returned value after all procedures are executed in a method.
+            
+            Constants : Things or values that doesnt not change.
+        
 */
     
 }

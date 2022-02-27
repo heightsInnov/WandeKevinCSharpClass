@@ -8,4 +8,13 @@ public class Bank{
 
     public string[] bankBranches {get; set;}
 
+    public BankBranch createNewBranch(BankBranch newBranch){
+        //Do feasibility study on the area
+        //Get a land in the area
+        //Get CBN authorization
+        //Build a branch --->
+        //Populate the branch with staff and ammenities
+        return newBranch;
+    }
+
 }

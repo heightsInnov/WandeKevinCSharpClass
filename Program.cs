@@ -28,6 +28,7 @@ namespace WandeKevin
 
             ubn.bankName = "Zenith Bank of Nigeria";
 
+
             // Console.WriteLine("The details of our ubn is:"+ ubn.ToString());
 
             Summation summation = new Summation();
