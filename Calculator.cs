@@ -1,40 +1,42 @@
 using System;
 
 public class Calculator
-{
+    {
     // Defining Properties of Calculator Class
-    public int firstNumber { get; set; }
+    public decimal firstNumber { get; set; }
+    public decimal secondNumber { get; set; }
 
-    public int secondNumber { get; set; }
 
+    // Defining a Two-Argument Constructor
     public Calculator(int firstNumber, int secondNumber)
     {
         this.firstNumber = firstNumber;
         this.secondNumber = secondNumber;
     }
 
+
     // Defining Methods of Calculator Class
-    public int SumOf()
+    public decimal SumOf()
     {
-        int sum = firstNumber + secondNumber;
+        decimal sum = firstNumber + secondNumber;
         return sum;
     }
 
-    public int DifferenceOf()
+    public decimal DifferenceOf()
     {
-        int diff = firstNumber - secondNumber;
+        decimal diff = firstNumber - secondNumber;
         return diff;
     }
 
-    public int ProductOf()
+    public decimal ProductOf()
     {
-        int product = firstNumber * secondNumber;
+        decimal product = firstNumber * secondNumber;
         return product;
     }
 
-    public int RatioOf()
+    public decimal RatioOf()
     {
-        int ratio = firstNumber / secondNumber;
+        decimal ratio = firstNumber / secondNumber;
         return ratio;
         // consider decimal
     }
