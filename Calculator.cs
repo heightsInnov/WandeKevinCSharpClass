@@ -8,7 +8,7 @@ public class Calculator
 
 
     // Defining a Two-Argument Constructor
-    public Calculator(int firstNumber, int secondNumber)
+    public Calculator(decimal firstNumber, decimal secondNumber)
     {
         this.firstNumber = firstNumber;
         this.secondNumber = secondNumber;
