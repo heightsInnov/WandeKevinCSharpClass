@@ -1,3 +1,4 @@
+
 using System;
 
 class Readme{
@@ -205,7 +206,7 @@ class Readme{
     Write a calculator class with two properties, 
         define 4 methods within the class to handle four different arithmetic operations of your choosen.
 
-    push to the repo before next class.
+    push to the repo before next class. 
 */
 
 /*
