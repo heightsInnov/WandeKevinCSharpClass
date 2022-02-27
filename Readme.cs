@@ -243,7 +243,7 @@ class Readme{
 
             Return types: It is the datatype of the expected returned value after all procedures are executed in a method.
             
-
+            Constants : Things or values that doesnt not change.
         
 */
     
