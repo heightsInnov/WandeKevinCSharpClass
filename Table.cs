@@ -36,7 +36,7 @@ public class Table
     }
 
     // Writing a Method to Print to Console
-    public string Print()
+    public override string ToString()
     {
         return " Brand Name: " + brandName
                              + "\n Colour: " + colour

@@ -35,32 +35,32 @@ namespace WandeKevin
 
                 }*/
 
-        /*        public static void Main(string[] args)
-                {
-                    Console.WriteLine("================= Table Description =========================");
-                    Table table = new Table("Black Horse Power", "blue", true);
-                    Table table1 = new Table(40.5m, 17.3m, 38, true);
-                    Table table2 = new Table("Hard Rocks", 3.4m);
-                    Console.WriteLine(table.Print() + "\n" + "\n" + table1.Print() + "\n" + "\n" + table2.Print());
-                    Console.WriteLine("===========================================================" + "\n");
-
-
-
-                }
-        */
-
         public static void Main(string[] args)
         {
-            Console.WriteLine("=============== Hello Calculator! ===============" + "\n");
-            Calculator testScores = new Calculator(3.5m, 2);
+            Console.WriteLine("================= Table Description =========================");
+            Table table = new Table("Black Horse Power", "blue", true);
+            Table table1 = new Table(40.5m, 17.3m, 38, true);
+            Table table2 = new Table("Hard Rocks", 3.4m);
+            Console.WriteLine(table.ToString() + "\n" + "\n" + table1.ToString() + "\n" + "\n" + table2.ToString());
+            Console.WriteLine("===========================================================" + "\n");
 
-            Console.WriteLine("Sum of " + testScores.firstNumber + " and " + testScores.secondNumber + " is: " + testScores.SumOf());
-            Console.WriteLine("Difference between " + testScores.firstNumber + " and " + testScores.secondNumber + " is: " + testScores.DifferenceOf());
-            Console.WriteLine("Product of " + testScores.firstNumber + " and " + testScores.secondNumber + " is " + testScores.ProductOf());
-            Console.WriteLine("Ratio of " + testScores.firstNumber + " and " + testScores.secondNumber + " is " + testScores.RatioOf());
+
 
         }
 
+
+        /*        public static void Main(string[] args)
+                {
+                    Console.WriteLine("=============== Hello Calculator! ===============" + "\n");
+                    Calculator testScores = new Calculator(3.5m, 2);
+
+                    Console.WriteLine("Sum of " + testScores.firstNumber + " and " + testScores.secondNumber + " is: " + testScores.SumOf());
+                    Console.WriteLine("Difference between " + testScores.firstNumber + " and " + testScores.secondNumber + " is: " + testScores.DifferenceOf());
+                    Console.WriteLine("Product of " + testScores.firstNumber + " and " + testScores.secondNumber + " is " + testScores.ProductOf());
+                    Console.WriteLine("Ratio of " + testScores.firstNumber + " and " + testScores.secondNumber + " is " + testScores.RatioOf());
+
+                }
+        */
     }
 
 }
