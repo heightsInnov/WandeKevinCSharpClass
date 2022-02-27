@@ -2,6 +2,7 @@
 
 public class Table
 {
+    // Defining Table Fields
     public string brandName { get; set; }
     public string colour { get; set; }
     public decimal length { get; set; }
@@ -10,6 +11,8 @@ public class Table
     public decimal surfaceArea { get; set; }
     public bool isPlastic { get; set; }
 
+    
+    // Creating Argument Constructors for Table Class
     public Table(string brandName, decimal height)
     {
         this.brandName = brandName;
@@ -32,14 +35,15 @@ public class Table
         this.isPlastic = isPlastic;
     }
 
+    // Writing a Method to Print to Console
     public string Print()
     {
         return " Brand Name: " + brandName
                              + "\n Colour: " + colour
-                             + "\n Length: " + length
-                             + "\n Breadth: " + breadth
-                             + "\n Size: " + surfaceArea
-                             + "\n Height: " + height
+                             + "\n Length: " + length + " cm"
+                             + "\n Breadth: " + breadth + " cm"
+                             + "\n Size: " + surfaceArea + " sq centimetres"
+                             + "\n Height: " + height + " cm"
                              + "\n Is Table Plastic?: " + isPlastic;
     }
 
