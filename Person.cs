@@ -2,7 +2,7 @@ using System;
 
 class Person{
 
-    const int publicServiceYear = 35;
+    public const int publicServiceYear = 35;
     public int currentYear = 2022;
     
     public int calculateAge(int birthYear){
