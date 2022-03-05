@@ -12,5 +12,27 @@ class Person{
         Console.WriteLine("Month difference is >> " + monthDifference);
 
         Console.WriteLine("Day difference is >> "+ (date1 - date2).TotalDays);
+
+    }
+    public const int publicServiceYear = 35;
+    public int currentYear = DateTime.Now.Year;
+
+    
+    public int calculateAge(int birthYear){
+        // Kevin
+        int age = currentYear - birthYear;
+        return age;
+    }
+
+    public double calculateBMI(double height, double weight){
+        // Kevin
+        double bmi = weight / Math.Pow(height, 2);
+        return bmi;
+    }
+
+    public int calculateRetirementYear(int yearOfFirstAppointment){
+        // Kevin
+        int retirementYear = yearOfFirstAppointment + publicServiceYear;
+        return retirementYear;
     }
 }
