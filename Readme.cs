@@ -253,7 +253,21 @@ class Readme{
     Control structures or flows are block statments used in monitoring and controlling the execution of a program.
     It is used in performing a particular logic or returning a response based on certain preset conditions.
 
+     => If statement
+     => If - Else statement
+     => While - Do statement
+     => Switch - Case statements
 
+     If - Statement : Used to evaluate a condition to true before a statement is executed.
+     
+
+     == > Assigment
+     Write a program to print the colors of all nigerian currency based on the supplied currency note.
+     Decalre an array of possible currency and check if the supplied currency is within the array before specifying th 
+     currency color.
+     Also check if the note is in use or not in use again; if in use, return color else return "Outdated Note";
+
+     
 */
     
 }

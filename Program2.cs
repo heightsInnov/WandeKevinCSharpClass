@@ -27,6 +27,14 @@ class Program2{
 
         
         Console.WriteLine("The force needed to move the mass is >> "+ Fibonancci.GetNthFibonacci_Rec(2));
+
+        ControlStructure cs = new ControlStructure();
+
+        cs.IfMethod("Yewande", 11);
+        cs.IfMethod("Kevin", 16);
+
+        cs.IfElseMethod("Kevin", 16);
         
+        cs.WhileMethod(3);
     }
 }
