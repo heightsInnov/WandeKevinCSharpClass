@@ -25,8 +25,8 @@ class Program2{
         airtime1.isInternetConnected = true;
         airtime1.isMobileConnected = true;
 
-        Force f = new Force();
-        double force = f.calculateStaticForce(20.78);
-        Console.WriteLine("The force needed to move the mass is >> "+f);
+        
+        Console.WriteLine("The force needed to move the mass is >> "+ Fibonancci.GetNthFibonacci_Rec(2));
+        
     }
 }
