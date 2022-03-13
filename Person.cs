@@ -1,18 +1,24 @@
+using System;
+
 class Person{
 
     const int publicServiceYear = 35;
 
     public int calculateAge(int birthYear){
-        
-        //YEWANDE
-        return null;
+        // Kevin
+        int age = currentYear - birthYear;
+        return age;
     }
 
     public double calculateBMI(double height, double weight){
-        return null;
+        // Kevin
+        double bmi = weight / Math.Pow(height, 2);
+        return bmi;
     }
 
-    public double calculateRetirementYear(int yearOfFirstAppointment){
-        return null;
+    public int calculateRetirementYear(int yearOfFirstAppointment){
+        // Kevin
+        int retirementYear = yearOfFirstAppointment + publicServiceYear;
+        return retirementYear;
     }
 }
