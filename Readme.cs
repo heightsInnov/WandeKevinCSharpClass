@@ -243,6 +243,9 @@ class Readme{
 
             Return types: It is the datatype of the expected returned value after all procedures are executed in a method.
             
+    Assignment:
+    => Write a simple program to calculate the volume of a geepee tank that can only be half-full.
+    => Write a simple program to calculate the fibonanci series of a number.
             Constants : Things or values that doesnt not change.
 
             git pull origin week4:week4
@@ -250,7 +253,24 @@ class Readme{
             git branch
             git checkout week4
             git pull origin week4
-        
+
+            =================== Control Structures =====================
+    Control structures or flows are block statments used in monitoring and controlling the execution of a program.
+    It is used in performing a particular logic or returning a response based on certain preset conditions.
+
+     => If statement
+     => If - Else statement
+     => While - Do statement
+     => Switch - Case statements
+
+     If - Statement : Used to evaluate a condition to true before a statement is executed.
+     
+
+     == > Assigment
+     Write a program to print the colors of all nigerian currency based on the supplied currency note.
+     Decalre an array of possible currency and check if the supplied currency is within the array before specifying th 
+     currency color.
+     Also check if the note is in use or not in use again; if in use, return color else return "Outdated Note";
 */
     
 }

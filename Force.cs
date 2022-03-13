@@ -16,12 +16,12 @@ class Force{
 
     public double calculatePotentialForce(double mass, double height){
         
-        double potentialForce = masss * gravity * height;
+        double potentialForce = mass * gravity * height;
 
         return potentialForce;
     }
 
-    public double calculatePotentialForce(double mass, double height){
+    public double calculatePotentialForce2(double mass, double height){
         double potentialForce = calculateStaticForce(mass) * height;
         return potentialForce;
     }
