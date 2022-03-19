@@ -1,3 +1,6 @@
+
+using System;
+
 class Readme{
     
     /*
@@ -42,5 +45,232 @@ class Readme{
             - Interface: These are contracts bindings between a class and a fellow implementing class
             - Abstract Classes: These are classes containing one or more abstract methods
 
+
+        =========== Classes ==============
+        Objects
+        Program files
+        Building blocks of Objects
+
+        Classes => Modeled Objects / Model of objects / Object templates
+
+        classes contains attributes and methods.
+        Attributes are made of variables;
+        while methods describe the functions to be performed or performed by a class.
+
+        What are variables: \
+            Something that  changes
+            Something that takes different forms
+            :=> Variables are dynamic and changeable containers for values.
+
+            Declaring variables:
+                variables are declared in different ways, however the shortest variable will contain 
+                    1. DataType;
+                    2. Variable Name; 
+                    3. It is terminated with a semi-colon;
+
+                    e,g: int sum;
+                         string firstname;
+                         string bankName;
+                         decimal PI;
+                         boolean isValid;
+
+            On a broader scope, a variable contains;
+            1. access modifier which is private by default
+            2. Data type
+            3. Variable name
+            4. optional default value 
+            5. semi colon.
+
+            e.g public string bankName = "Union Bank of Nigeria";
+                private int age;
+                private decimal PI;
+                
+                volume of air = 22.4dm3
+                volume of YewKel air = 25 dm3
+
+        DataTypes: Data types are the grouping of information or data in programming. 
+            with Objects been the base type for all data types.
+        Examples of DT in C#:
+        => Primitive
+            -> Integers: Numbers (Whole numbers), size : 4 bytes
+            -> Boolean : True or False, 1 or 0, size: 2 bytes
+            -> Float : 4 byte
+            -> Double : 8 byte
+            -> Decimal : 16 byte
+            -> Char : 'a', 'b', '1', 'y', '@', '!'
+            -> Null : void, empty, nothing, abstract,
+            -> Long : 8 bytes
+            -> Short : 2 bytes
+            -> String : Alpha-numeric characters. E.g Texts, mix of numbers and characters or alphabets.
+
+        => Derived DataTypes
+        - Functions
+        - Arrays
+        - References
+        - Pointers
+
+        Arrays: They are container-like in-memory storage used to hold values of the same data type.
+            They are zero based index storage. 
+            They are referenced from 0 to the size - 1
+            They are denoted by [] in c#
+            They store finite number of values
+            They are only accessible (Writing and Reading) through the use of their index value
+            Array values are printed using a loop mechanism.
+
+            - Declaring an array
+            public string[] bankBranches;
+            public string bankBranches[];
+            public int[] numbers;
+            private int[] ages;
+            private char[] alphabets;
+
+            - Instantiating and array
     */
+            //1. 
+            public string[] bankBranches = new string[5]{"Ikeja", "V.I", "Lekki", "Yaba", "Marina"};
+
+            //2.
+            public string[] bankNames = new string[6];
+            public static int[] numbers = new int[3]{1, 2, 3};
+            
+            public static void Mains(){
+                
+/*      - Accessing an array
+                => Writing into an array
+    */          
+                Readme readme = new Readme();
+                readme.bankBranches[0] = "Somolu";
+                readme.bankBranches[4] = "Bariga";
+
+                readme.bankNames[0] = "UBA";
+                readme.bankNames[2] = "UBN";
+                readme.bankNames[5] = "FBN";
+                
+            }
+
+    /*      - Accessing an array
+                => Reading from an array
+    */ 
+            int firstNumber = numbers[0];
+            int secondNumber = numbers[1];
+            int thirdNumber = numbers[2];
+            
+            int sum = numbers[0] + numbers[2];
+
+
+//Side Note
+    //Concatenation: The addition or joining of two strings in programming
+    // firstname + " "+ secondname => Yewande Akinjewe : Happens when one or more of the added variables is a
+    // string
+
+/*
+    Declaring Classes
+    Classes are declared or created using the below syntax;
+    {access modifiers} class(keyword) {class name} {}
+
+    On class creation in C#, five default methods are bundled with the created class which are inherited from 
+    an Object base class.
+    The methods include:
+        - Equals
+        - HashCode
+        - ToString
+        - GetType
+
+    The above methods are immediately created after a class creation and are useable on creation.
+    The methods are also overrideable to customize the functions they perform.
+
+    There is a 5th hidden method that comes with your class, and it is call a no-arguement constructor.
+    => Constructors: The default method used in setting up your class.
+        They have same name as the class themselves
+        They can be overriden and also customized.
+
+    ========= Week Assignement ============
+    1. Write a custotmer class with only 1 required arguement constructor, supply as many fields as possible
+    2. Write a Customer Account Class which inherits from Customer class and has a required args constructor that includes two of the fields from the Customer class.
+
+
+    ============ Week 4 classwork ==================
+    Write a class (Dog/Table) with 5 properties each;
+    define two required arguement constructors with atleast 2 - 3 fields each, 
+    override the ToString method of the class
+
+    Instantiate the class in the program.cs class
+    Print the values within the class on the console.
+
+    =============== Assignment =============
+    Write 3 new classes with atleast two reqired arguement constructors
+    Define 3 instances each of your classes;
+    Print the values of your classes on the console, screen grab the output 
+        and add it to a folder call output in the project
+
+    Write a calculator class with two properties, 
+        define 4 methods within the class to handle four different arithmetic operations of your choosen.
+
+    push to the repo before next class. 
+*/
+
+/*
+    Methods: Simply the the way of doing things, or a logical arrangment of procedures and processes of doing things
+    Methods cann be categorized in different ways;
+        - based on their access modifiers
+            public
+            private
+            protected
+            internal
+        - based on their return type
+            non value returning methods
+            method that returns value
+        - based on the arguement they take
+            non-arguement methods
+            arguement taking methods.
+
+    Method signature:
+        consist of the following:
+        1. access modifier (public, private, protected ..)
+        2. return type (Datatype)
+        3. method name (user defined)
+        4. optional method arguements (user defined)
+
+        e.g public void dance();
+            public int add(int a, int b);
+            private string generateName();
+            protected long saveBvn();
+
+            shortest possible method signature consist of the return type, method name and optional arguement.
+            e.g void dance();
+                string generateName();
+                int add(int a, int b);
+
+            Return types: It is the datatype of the expected returned value after all procedures are executed in a method.
+            
+    Assignment:
+    => Write a simple program to calculate the volume of a geepee tank that can only be half-full.
+    => Write a simple program to calculate the fibonanci series of a number.
+            Constants : Things or values that doesnt not change.
+
+            git pull origin week4:week4
+
+            git branch
+            git checkout week4
+            git pull origin week4
+
+            =================== Control Structures =====================
+    Control structures or flows are block statments used in monitoring and controlling the execution of a program.
+    It is used in performing a particular logic or returning a response based on certain preset conditions.
+
+     => If statement
+     => If - Else statement
+     => While - Do statement
+     => Switch - Case statements
+
+     If - Statement : Used to evaluate a condition to true before a statement is executed.
+     
+
+     == > Assigment
+     Write a program to print the colors of all nigerian currency based on the supplied currency note.
+     Decalre an array of possible currency and check if the supplied currency is within the array before specifying th 
+     currency color.
+     Also check if the note is in use or not in use again; if in use, return color else return "Outdated Note";
+*/
+    
 }

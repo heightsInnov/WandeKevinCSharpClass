@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Documents\\Demotek\\CSharpTrainning\\WandeKevin\\WandeKevin.csproj",
+      "projectUniqueName": "c:\\Users\\User\\Documents\\Demotek\\CSharpTrainning\\WandeKevin\\WandeKevin.csproj",
       "projectName": "WandeKevin",
-      "projectPath": "C:\\Users\\User\\Documents\\Demotek\\CSharpTrainning\\WandeKevin\\WandeKevin.csproj",
+      "projectPath": "c:\\Users\\User\\Documents\\Demotek\\CSharpTrainning\\WandeKevin\\WandeKevin.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\Documents\\Demotek\\CSharpTrainning\\WandeKevin\\obj\\",
+      "outputPath": "c:\\Users\\User\\Documents\\Demotek\\CSharpTrainning\\WandeKevin\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
