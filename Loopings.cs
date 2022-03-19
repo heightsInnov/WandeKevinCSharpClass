@@ -15,8 +15,8 @@ class Loops{
 
         }
         e.g => 
-        for (int i = 0; i < 5; i++){
-
+        for (int i = 0; i < 5;i++){
+            
         }
     */
 
@@ -28,7 +28,7 @@ class Loops{
         }
     }
 
-    public static void Main(){
+    public static void Mains(){
         printNotes();
     }
 }

@@ -82,7 +82,7 @@ class NairaNotes{
 
 
     /*Assignment
-        Implenent the same using a Map dataType
-        Implement using a List
+        Implenent the same using a Dictionary dataType
+        Implement using a List dataType
     */
 }

@@ -22,7 +22,7 @@ class ControlStructure{
             Console.WriteLine(name + " cannot have a beer");
         }
         else{
-            Console.WriteLine(name + ", what kind of beer would dyou like?");
+            Console.WriteLine(name + ", what kind of beer would you like?");
         }
     }
 
