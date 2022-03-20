@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 
 //Create a list of 30 students
 //Use a foreach loop to print the ages, name and students number of each student
@@ -24,7 +25,7 @@ public class Student{
         if(numberOfStudents > 0){
             for(int i = 1; i <= numberOfStudents; i++){
                 Student student = createStudent("Student"+i, (080000+i).ToString(), new Random().Next(18, 35));
-                students.add(student);
+                students.Add(student);
             }
         }
         return students;
