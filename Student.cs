@@ -36,7 +36,7 @@ public class Student{
         return "Student " + name + " with student number " + studentNumber + " is of age " + age;
     }
 
-    public static void Main(){
+    public static void Mains(){
         Student adminStudent = new Student("080000", "Kevin", 40);
         List<Student> students =  adminStudent.createMultipleStudents(30);
         foreach(Student student in students){

@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -11,9 +13,20 @@ namespace WandeKevin
     {
         public static void ReadFile()
         {
-            string contents = File.ReadAllText(@"C:\temp\test.txt");
+            string contents = File.ReadAllText(@"C:\Users\User\Documents\Demotek\CSharpTrainning\WandeKevin\country-by-continent.json");
 
-            Console.WriteLine(contents);
+            var jArray = JsonConvert.DeserializeObject<JArray>(contents);
+
+            HashSet<string> continents = new HashSet<string>();
+
+            foreach(JObject jobject in jArray)
+            {
+                Console.WriteLine(Convert.ToString(jobject["country"]));
+            }
+            
+            
+
+
         }
         
         public static void Main()

@@ -1,10 +1,13 @@
+using System.Collections.Generic;
+using System.Linq;
+
 class NairaNotes{
 
     static int[] notes = {1, 5, 10, 20, 50, 100, 200, 500, 1000};
 
     public static string checkNote(int note){
         
-        if(!notes.contains(note)){
+        if(!notes.Contains(note)){
             return "Invalid naira note supplied";
         }
 
