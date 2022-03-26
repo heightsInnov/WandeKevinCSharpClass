@@ -30,3 +30,5 @@ C:\Users\kevin\source\repos\WandeKevinCSharpClass\obj\Debug\net5.0\WandeKevin.dl
 C:\Users\kevin\source\repos\WandeKevinCSharpClass\obj\Debug\net5.0\ref\WandeKevin.dll
 C:\Users\kevin\source\repos\WandeKevinCSharpClass\obj\Debug\net5.0\WandeKevin.pdb
 C:\Users\kevin\source\repos\WandeKevinCSharpClass\obj\Debug\net5.0\WandeKevin.genruntimeconfig.cache
+C:\Users\kevin\source\repos\WandeKevinCSharpClass\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\kevin\source\repos\WandeKevinCSharpClass\obj\Debug\net5.0\WandeKevin.csproj.CopyComplete

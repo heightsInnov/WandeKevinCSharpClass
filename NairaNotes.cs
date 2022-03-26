@@ -4,10 +4,10 @@ class NairaNotes{
 
     public static string checkNote(int note){
         
-        if(!notes.contains(note)){
+/*        if(!notes.contains(note)){
             return "Invalid naira note supplied";
         }
-
+*/
 //1 X 1
 //2X1. 2X2
    // int [][] numbers = {{2, 3}, {3, 5}};
