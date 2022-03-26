@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\User\\Documents\\Demotek\\CSharpTrainning\\WandeKevin\\WandeKevin.csproj": {}
+    "C:\\Users\\User\\Documents\\Demotek\\CSharpTrainning\\WandeKevin\\WandeKevin.csproj": {}
   },
   "projects": {
-    "c:\\Users\\User\\Documents\\Demotek\\CSharpTrainning\\WandeKevin\\WandeKevin.csproj": {
+    "C:\\Users\\User\\Documents\\Demotek\\CSharpTrainning\\WandeKevin\\WandeKevin.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\User\\Documents\\Demotek\\CSharpTrainning\\WandeKevin\\WandeKevin.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Documents\\Demotek\\CSharpTrainning\\WandeKevin\\WandeKevin.csproj",
         "projectName": "WandeKevin",
-        "projectPath": "c:\\Users\\User\\Documents\\Demotek\\CSharpTrainning\\WandeKevin\\WandeKevin.csproj",
+        "projectPath": "C:\\Users\\User\\Documents\\Demotek\\CSharpTrainning\\WandeKevin\\WandeKevin.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\User\\Documents\\Demotek\\CSharpTrainning\\WandeKevin\\obj\\",
+        "outputPath": "C:\\Users\\User\\Documents\\Demotek\\CSharpTrainning\\WandeKevin\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -38,6 +38,12 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -53,7 +59,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.405\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
         }
       }
     }
