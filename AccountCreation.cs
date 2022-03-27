@@ -1,9 +1,9 @@
 public interface AccountCreation{
-    public void getCustomerDetails();
-    public bool verifyCustomerBvn();
-    public bool checkForDuplicateCustomer();
-    public void createCustomer();
-    public void sendCustomerDetailsByEmail();
+    public void getCustomerDetails(Customer customer);
+    public bool verifyCustomerBvn(string bvn);
+    public bool checkForDuplicateCustomer(Customer customer);
+    public void createCustomer(Customer customer);
+    public void sendCustomerDetailsByEmail(string accountNumber, string email, string phoneNumber);
 }
 
 //Readup SOLID Principle
