@@ -4,29 +4,25 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace WandeKevin
 {
     class CountryAssignment
     {
+        
         public static void ReadFile()
         {
-            string contents = File.ReadAllText(@"C:\Users\User\Documents\Demotek\CSharpTrainning\WandeKevin\country-by-continent.json");
+            string contents = File.ReadAllText(@"\\Mac\Home\Documents\Taller\Demotek\WandeKevinCSharpClass\country-by-continent.json");
 
             var jArray = JsonConvert.DeserializeObject<JArray>(contents);
 
-            HashSet<string> continents = new HashSet<string>();
+            Dictionary<string, string> countriesContinents = new Dictionary<string, string>();
 
-            foreach(JObject jobject in jArray)
+            foreach (JObject jobject in jArray)
             {
-                Console.WriteLine(Convert.ToString(jobject["country"]));
+                countriesContinents.Add(Convert.ToString(jobject["country"]), Convert.ToString(jobject["continent"]));
+
             }
-            
-            
-
-
         }
         
         public static void Main()
