@@ -5,3 +5,5 @@ public interface AccountCreation{
     public void createCustomer();
     public void sendCustomerDetailsByEmail();
 }
+
+//Readup SOLID Principle
