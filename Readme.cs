@@ -271,6 +271,18 @@ class Readme{
      Decalre an array of possible currency and check if the supplied currency is within the array before specifying th 
      currency color.
      Also check if the note is in use or not in use again; if in use, return color else return "Outdated Note";
-*/
+
+    =========== Enums Datatype ===========
+    Enums(Gender type) are datatypes used for storing constant list of values that is avaialable accross the lifecycle of the 
+    application.
     
+    Syntax => 
+        public enum {Enum name} : The keyword Enum is used in place of a class in a regular C# class declaration.
+    The enumerable values are then declared within the Enum object as constant list of values within different categorised name.
+    e.g => 
+    public Gender{
+        {list of genders seperated by comma}
+    }
+ 
+ */ 
 }

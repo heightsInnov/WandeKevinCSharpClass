@@ -8,11 +8,13 @@ public class Student{
     private string studentNumber {get; set;}
     private string name {get; set;}
     private int age{get; set;}
+    private int gender { get; set; }
 
     public Student(string studentNumber, string name, int age){
         this.studentNumber = studentNumber;
         this.age = age;
         this.name = name;
+        this.gender = (int)Gender.MALE;
     }
 
     public Student createStudent(string studentName, string number, int age){
