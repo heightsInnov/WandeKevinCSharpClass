@@ -4,6 +4,7 @@ public class BankBranch : Bank {
     public string branchName {get; set;}
     public string branchAddress {get; set;}
     public decimal ledgerBalance {get; set;} = 0;
+    public AccountType ledgerAccountType {set; get;}
     public int staffStrength {get; set;}
     public int branchSortCode {get; set;}
 
