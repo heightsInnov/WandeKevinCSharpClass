@@ -25,7 +25,7 @@ namespace WandeKevin
             ubn.logoLink =  "https://unionbankng.com/logo";
             ubn.staffStrength = 30;
             ubn.swiftCode = "UBNINGLA";
-
+            ubn.ledgerAccountType = AccountType.Savings;
             ubn.bankName = "Zenith Bank of Nigeria";
 
 
