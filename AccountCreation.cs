@@ -1,5 +1,5 @@
 public interface AccountCreation{
-    public void getCustomerDetails(Customer customer);
+    public string getCustomerDetails(Customer customer);
     public bool verifyCustomerBvn(string bvn);
     public bool checkForDuplicateCustomer(Customer customer);
     public void createCustomer(Customer customer);
